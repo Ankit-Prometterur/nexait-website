@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-black/30"></div>
 
-      <div className="relative z-10 flex items-center h-full mx-18 px-8">
+      <div className="relative z-10 flex items-center h-full mx-15 px-5">
         <div className="text-white flex flex-col justify-center pt-18">
           <h1 className="text-[80px] font-light leading-tight mb-8 max-w-5xl">Explore the Architects of Modern Digital Solutions</h1>
           <p className="text-3xl text-gray-200 leading-relaxed max-w-5xl">
