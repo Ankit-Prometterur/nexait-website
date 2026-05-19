@@ -11,10 +11,10 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-black pt-16 pb-10 text-white min-[768px]:pt-20">
-      <div className="px-4 min-[768px]:px-8 min-[990px]:mx-22">
-        <div className="grid grid-cols-1 gap-20 border-b border-[#171f2e] pb-16 lg:grid-cols-2">
+      <div className="px-4 min-[768px]:px-6 min-[1400px]:mx-22">
+        <div className="grid grid-cols-1 gap-10 border-b border-[#171f2e] pb-16 lg:grid-cols-2">
           <div>
-            <div className="grid grid-cols-2 gap-10 min-[480px]:grid-cols-2 min-[768px]:grid-cols-3">
+            <div className="grid grid-cols-2 gap-5 min-[480px]:grid-cols-2 min-[768px]:grid-cols-[1.5fr_1.5fr_1.3fr]">
               <div>
                 <h3 className="mb-8 font-semibold min-[768px]:text-[21px]">
                   Useful Resources
@@ -68,7 +68,7 @@ const Footer = () => {
                   Hidden
                 </h3>
 
-                <ul className="space-y-3 text-[14px] text-[#9ca3af]">
+                <ul className="space-y-3 text-[14px] text-[#9ca3af] ">
                   <li className="cursor-pointer transition hover:text-white">
                     Web Application Development
                   </li>
