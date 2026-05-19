@@ -85,7 +85,7 @@ const Portfolio = () => {
             className="
   relative
   flex
-  min-h-[560px]
+  min-h-[580px]
   w-full
   items-center
   justify-center

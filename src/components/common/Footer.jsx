@@ -10,85 +10,85 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-20 pb-10 text-white">
-      <div className="mx-22">
+    <footer className="bg-black pt-16 pb-10 text-white min-[768px]:pt-20">
+      <div className="px-4 min-[768px]:px-8 min-[990px]:mx-22">
         <div className="grid grid-cols-1 gap-20 border-b border-[#171f2e] pb-16 lg:grid-cols-2">
           <div>
-            <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
+            <div className="grid grid-cols-2 gap-10 min-[480px]:grid-cols-2 min-[768px]:grid-cols-3">
               <div>
-                <h3 className="mb-8 text-[21px] font-semibold">
+                <h3 className="mb-8 font-semibold min-[768px]:text-[21px]">
                   Useful Resources
                 </h3>
 
                 <ul className="space-y-3 text-[14px] text-[#9ca3af]">
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     About Nexait
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Portfolio
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Blog
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Contact Us
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="mb-8 text-[21px] font-semibold">
+                <h3 className="mb-8 font-semibold min-[768px]:text-[21px]">
                   Useful Resources
                 </h3>
 
                 <ul className="space-y-3 text-[14px] text-[#9ca3af]">
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Mobile App Development
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     E-commerce Development
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Web Development
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Software Development
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="mb-3 text-[32px] font-medium opacity-0">
+                <h3 className="mb-8 font-semibold opacity-0 min-[768px]:text-[21px]">
                   Hidden
                 </h3>
 
                 <ul className="space-y-3 text-[14px] text-[#9ca3af]">
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Web Application Development
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Hire Dedicated Mobile App
                   </li>
 
-                  <li className="transition hover:text-white cursor-pointer">
+                  <li className="cursor-pointer transition hover:text-white">
                     Hire Dedicated Web Developer
                   </li>
                 </ul>
               </div>
             </div>
 
-            <ul className="mt-30 flex items-center gap-4">
+            <ul className="mt-12 hidden items-center gap-4 min-[768px]:flex">
               <li>
                 <a
                   href="#"
-                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#121212] text-white transition hover:bg-[#ed5b2d]"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
                 >
                   <FaFacebookF />
                 </a>
@@ -97,7 +97,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="flex  h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
                 >
                   <FaInstagram />
                 </a>
@@ -106,7 +106,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="flex  h-7 w-13 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -124,11 +124,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="mb-10 text-[21px] font-semibold">Global Presence</h3>
+            <h3 className="mb-10 font-semibold min-[768px]:text-[21px]">
+              Global Presence
+            </h3>
 
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
               <div className="border-b">
-                <div className="flex items-start gap-4 mb-7">
+                <div className="mb-7 flex items-start gap-4">
                   <Image
                     src="https://nexait.io/assets/images/usa-flag-24.svg"
                     width={24}
@@ -141,7 +143,7 @@ const Footer = () => {
                       USA Office
                     </h5>
 
-                    <p className="text-[13px] text-[#d4d4dd]">
+                    <p className="text-[13px] leading-[1.6] text-[#d4d4dd]">
                       112, 166 Geary St. 15th Floor, San Francisco, CA, San
                       Francisco, US, 94108
                     </p>
@@ -149,7 +151,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="border-b">
+              <div className="border-b pb-6">
                 <div className="flex items-start gap-4">
                   <Image
                     src="https://nexait.io/assets/images/india-flag-24.svg"
@@ -163,7 +165,7 @@ const Footer = () => {
                       India Office
                     </h5>
 
-                    <p className="text-[13px] text-[#d4d4dd]">
+                    <p className="text-[13px] leading-[1.6] text-[#d4d4dd]">
                       Office no. 2228, 2nd Floor, J.K Infotech, Hinjewadi -
                       Phase 1, Near Ruby Hall Clinic, Pune - 411057
                     </p>
@@ -200,8 +202,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center justify-between gap-6 md:flex-row">
-          <div className="flex items-center gap-10">
+        <div className="mt-10 flex flex-col  justify-between gap-8 pt-5 min-[768px]:flex-row">
+          <div className="flex flex-col  gap-6 text-center min-[768px]:flex-row">
             <a href="https://nexait.io">
               <Image
                 src="https://nexait.io/assets/images/logo-sm.svg"
@@ -211,9 +213,47 @@ const Footer = () => {
               />
             </a>
 
-            <div className="h-6 w-[1px] bg-[white]" />
+            <ul className="flex items-center gap-4 min-[768px]:hidden">
+              <li>
+                <a
+                  href="#"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
 
-            <p className="text-[14px] text-[#9ca3af]">
+              <li>
+                <a
+                  href="#"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  className="flex h-7 w-12 items-center justify-center rounded-full bg-[#ffffff1a] text-white transition hover:bg-[#ed5b2d]"
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
+            </ul>
+
+            <div className="hidden h-6 w-[1px] bg-white min-[768px]:block" />
+
+            <p className="text-[14px] text-left text-[#9ca3af]">
               © 2026 Nexait. All rights reserved.
             </p>
           </div>
