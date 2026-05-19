@@ -70,7 +70,7 @@ const Portfolio = () => {
         <div className="flex items-center justify-center">
           <motion.div
             drag="x"
-            dragElastic={0.04}
+            dragElastic={0.009}
             dragMomentum={false}
             dragConstraints={{ left: 0, right: 0 }}
             onDragEnd={(event, info) => {
@@ -85,7 +85,7 @@ const Portfolio = () => {
             className="
   relative
   flex
-  min-h-[580px]
+  min-h-[600px]
   w-full
   items-center
   justify-center
