@@ -58,7 +58,6 @@ const Header = () => {
         {mobileMenuOpen && (
           <div className="fixed inset-0 z-[999] bg-black/50 backdrop-blur-sm">
             <div className="h-full w-[320px] overflow-y-auto overscroll-contain bg-[#111827] border-r border-white/10 p-6 flex flex-col">
-              {/* TOP */}
 
               <div className="flex items-center justify-between">
                 <Image
